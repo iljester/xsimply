@@ -3,7 +3,7 @@
 Contributors: iljester
 Tags: custom-background, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, custom-header, 
 editor-style, flexible-header, post-formats, sticky-post, rtl-language-support
-Stable tag: 1.6.1
+Stable tag: 1.7
 Requires at least: 4.8
 Tested up to: 4.9
 Requires PHP: 5.6
@@ -15,6 +15,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 XSimply is a versatile and light theme, available in different color schemes to allow a better and effective customization: light (white), metal (gray), pinky (pink), sea (blue), night (black). The combination of colors combined with a personalized background image and available fonts can make your site unique and particular.
 
 For more information about XSimply please go to https://www.iljester.com/portfolio/xsimply
+
+XSimply is also available on Github: https://github.com/iljester/xsimply
 
 Available localization: italian
 
@@ -40,9 +42,14 @@ Use a background suitable for that color scheme. You can also adjust the transpa
 
 = Can I change the theme font? =
 
-From version 1.1, XSimply allows you to customize the font. With version 1.2, available fonts are: Titillium Web (default), Noto Serif, Noto Sans, Roboto, Roboto Slab, Roboto Condensed, Muli, Quicksand, Inconsolata, Dancing Script, Rajdhani, Open Sans. With version 1.4, added fonts: Noto Sans JP. With version 1.5, added fonts: Montserrat, Lora and Source Serif Pro. It also allows you to choose the System UI font, which is nothing more than the font used in the user's device-PC.
+From version 1.1, XSimply allows you to customize the font. Fonts available: see inc/customizer.php
 
 == Changelog ==
+
+= 1.7 - 21/06/2024
+* Update info theme
+* Add new fonts
+* Add costant XSIMPLY_VER for current version
 
 = 1.6.1 - 29/03/2022
 * Added license URI in stylesheet

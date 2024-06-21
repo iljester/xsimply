@@ -14,6 +14,12 @@
 define( 'XSIMPLY_AUTHOR_SITE', '<a href="https://www.iljester.com">Il Jester</a>' );
 
 /**
+ * Define version
+ * For any use
+ */
+define('XSIMPLY_VER', '1.7');
+
+/**
  * xsimply setup
  */
 if ( ! function_exists( 'xsimply_setup' ) ) :
