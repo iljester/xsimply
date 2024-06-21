@@ -1,0 +1,173 @@
+/*!
+ * Night style
+ * @package: XSimply
+ */
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/**
+ * Links
+ */
+
+a, a:visited,
+.main-navigation .menu > li > a {
+    color: rgb(171, 171, 171);
+}
+
+a:hover {
+    color: #e4e4e4;
+    border-color: #e4e4e5;
+}
+
+.page-links a,
+.nav-links a.page-numbers {
+    background-color: #f6f5f42e !important;
+    text-shadow: none !important;
+}
+
+.entry-content a:hover,
+.post-navigation .nav-links a:hover .post-title,
+.site-info a:hover,
+.comment-list li .comment-content a:hover,
+.comment-pings li .comment-body a:hover,
+comment-list li .comment-metadata > a:hover time {
+    border-color: #e4e4e5;
+}
+
+.main-navigation .menu > li > a:hover,
+.widget .tagcloud a:hover,
+.entry-footer .edit-link a:hover, 
+.entry-footer .comments-link a:hover, 
+.entry-content .more-link:hover,
+.nav-links a.page-numbers:hover,
+.page-links a:hover,
+.comment-list li .reply a:hover,
+.comment-list li .comment-metadata .edit-link a:hover {
+    background-color: rgba(243, 243, 243, 0.26) !important;
+}
+
+.comment-list li .comment-metadata > a:before {
+    color: #fff !important;
+}
+
+/**
+ * Blockquote
+ */
+
+blockquote {
+    border-color: rgb(109, 109, 109);
+}
+
+/**
+ * Code formats
+ */
+
+code, kbd, pre, tt {
+    background-color: #f8f8f852;
+    text-shadow: none;
+}
+
+mark, ins, var {
+	color: #404040;
+}
+
+hr {
+	background-color: rgb(109, 109, 109);
+}
+
+/**
+ * Tables
+ */
+
+table, td, th {
+    border-color: rgb(109, 109, 109);
+}
+
+.wp-block-table.is-style-stripes tr:nth-child(odd), th {
+    background-color: #f8f8f829;
+    text-shadow: none;
+}
+
+/**
+ * Inputs
+ */
+
+textarea, 
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="number"],
+input[type="search"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"]{
+    background-color: #ffffff26;
+    color: #fff !important;
+}
+
+input[type="submit"], button, input[type="button"], input[type="reset"] {
+   text-shadow: none;
+   background-color: #a3a4a582;
+   color: #dadada;
+}
+
+select {
+    background-color:  #6b6b6b;
+    color: #fff;
+}
+
+/**
+ * Placeholder
+ */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #eee;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #eee;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #eee;
+}
+
+/**
+ * Menu
+ */
+
+.main-navigation .menu ul,
+.main-navigation .menu ul:before,
+.main-navigation .menu ul li {
+    background-color: #383838;
+}
+
+/**
+ * Sticky
+ */
+
+.sticky {
+    background-color: #ebebeb30;
+    color: #fff;
+    border: 1px solid rgb(109, 109, 109);
+}
+
+/**
+ * Comments
+ */
+
+.comment-list .comment {
+    border-color: rgb(109, 109, 109);
+}
+
+.comment-list li .comment-meta {
+    background-color: #000;
+}

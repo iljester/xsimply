@@ -1,0 +1,139 @@
+/*!
+ * Metal style
+ * @package: XSimply
+ */
+
+body {
+    background: #dad9d9;
+    text-shadow: 0 1px 0 #e8e8e8;
+    color: #2f2f2f;
+    box-shadow: inset 0px 22px 1000px #00000021;
+}
+
+/**
+ * Links
+ */
+
+a, a:visited {
+    text-shadow: 0 1px 0 #e8e8e8;
+}
+
+a:hover {
+    color: #0c0c0c;
+}
+
+.page-links a,
+.nav-links a.page-numbers {
+    background-color: #e4e1e1 !important;
+    text-shadow: none !important;
+}
+
+.main-navigation .menu > li > a:hover,
+.widget .tagcloud a:hover,
+.entry-footer .edit-link a:hover, 
+.entry-footer .comments-link a:hover, 
+.entry-content .more-link:hover,
+.nav-links a.page-numbers:hover,
+.page-links a:hover,
+.comment-list .reply a:hover,
+.comment-list li .comment-metadata .edit-link a:hover {
+    background-color: rgba(171, 171, 171, 0.42) !important;
+    text-shadow: 0 1px 0 #ddd;
+}
+
+.comment-list li .comment-metadata > a:before {
+    color: #2f2f2f !important;
+}
+
+/**
+ * Blockquote
+ */
+
+blockquote {
+    border-left: 6px solid #9c9c9c;
+}
+
+/**
+ * Code formats
+ */
+ 
+code, kbd, pre, tt {
+    background-color: #4c4c4c;
+    text-shadow: none;
+    color: #fff;
+}
+
+hr {
+	background-color: #9c9c9c;
+}
+
+/**
+ * Tables
+ */
+ 
+table, .wp-block-table.is-style-stripes, td, th {
+    border: 1px solid #9c9c9c;
+}
+
+th, .wp-block-table.is-style-stripes tr:nth-child(odd) {
+    background-color: #adadad;
+    text-shadow: 0 1px 0 #c5c5c5;
+}
+
+/**
+ * Inputs
+ */
+ 
+input[type="submit"], 
+button, input[type="button"], 
+input[type="reset"] {
+    background-color: #eaeaeab9;
+}
+
+textarea, 
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="number"], 
+input[type="search"], 
+input[type="date"], 
+input[type="datetime-local"], 
+input[type="month"], 
+input[type="tel"], 
+input[type="time"], 
+input[type="url"], 
+input[type="week"] {
+    background-color: #eaeaeaa8;
+}
+
+/**
+ * Menu
+ */
+
+.main-navigation .menu ul,
+.main-navigation .menu ul:before,
+.main-navigation .menu ul li {
+    background-color: #c7c7c7;
+    text-shadow: 0 1px 0 #ddd;
+}
+
+/**
+ * Sticky
+ */
+
+.sticky {
+    background-color: #a0a0a02e;
+    border: 1px solid #9c9c9c;
+}
+
+/**
+ * Comments
+ */
+
+.comment-list .comment {
+    border-color:#9c9c9c;
+}
+
+.comment-list li .comment-meta {
+    background-color: #dad9d9;
+}

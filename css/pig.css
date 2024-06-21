@@ -1,0 +1,183 @@
+/*!
+ * Pinky style
+ * @package: XSimply
+ */
+ 
+body {
+    background-color: #eabdbd;
+    color: #8c4848;
+}
+
+body.has-background-image {
+	color: #d27070;
+}
+
+/**
+ * Links
+ */
+
+a, a:visited, 
+.main-navigation .menu > li > a {
+    color: #d86464;
+}
+
+a:hover {
+    color: #b12b2b;
+    border-color: #b12b2a;
+}
+
+.page-links a,
+.nav-links a.page-numbers {
+    background-color: #f6f5f409 !important;
+    text-shadow: none !important;
+}
+
+.entry-content a,
+.comment-list li .comment-content a,
+.comment-pings li .comment-body a {
+    border-bottom: 1px dotted rgb(228, 125, 125);
+}
+
+.entry-content a:hover,
+.post-navigation .nav-links a:hover .post-title,
+.site-info a:hover,
+.comment-list li .comment-content a:hover,
+.comment-pings li .comment-body a:hover,
+.comment-list li .comment-metadata > a:hover time {
+    border-color: #b12b2a;
+}
+
+.main-navigation .menu > li > a:hover,
+.widget .tagcloud a:hover,
+.entry-footer .edit-link a:hover, 
+.entry-footer .comments-link a:hover, 
+.entry-content .more-link:hover,
+.nav-links a.page-numbers:hover,
+.page-links a:hover,
+.comment-list li .reply a:hover,
+.comment-list li .comment-metadata .edit-link a:hover {
+    background-color: rgba(253, 88, 88, 0.2) !important;
+}
+
+.comment-list li .comment-metadata > a:before {
+    color: rgb(197, 134, 134) !important;
+}
+
+/**
+ * Blockquote
+ */
+
+blockquote {
+	border-color: rgb(115, 80, 80);
+}
+
+/**
+ * Code formats
+ */
+
+code, kbd, pre, tt {
+    background-color: #bb747452;
+    text-shadow: none;
+}
+
+mark, ins, var {
+	color: #404040;
+}
+
+hr {
+	background-color: rgb(197, 134, 134);
+}
+
+/**
+ * Tables
+ */
+
+table, td, th, .wp-block-table.is-style-stripes {
+    border-color: rgb(115, 80, 80);
+}
+
+.wp-block-table.is-style-stripes tr:nth-child(odd), th {
+	background-color: #f8f8f829;
+    text-shadow: none;
+}
+
+/**
+ * Inputs
+ */
+
+textarea, 
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="number"],
+input[type="search"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"]{
+    background-color: #b3353526;
+    color: #fff !important;
+}
+
+input[type="submit"], button, input[type="button"], input[type="reset"] {
+	text-shadow: none;
+    background-color: #c5999982;
+    color: #de6b6b;
+}
+
+select {
+   background-color: #862121;
+   color: #fff;
+}
+
+/**
+ * Placeholder
+ */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #eee;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #eee;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #eee;
+}
+
+/**
+ * Menu
+ */
+
+.main-navigation .menu ul,
+.main-navigation .menu ul:before,
+.main-navigation .menu ul li {
+    background-color: #eaa9a9;
+}
+
+/**
+ * Sticky
+ */
+
+.sticky {
+	background-color: #7340400d;
+    color: #8c4848;
+    border: 1px solid rgb(197, 134, 134);
+}
+
+/**
+ * Comments
+ */
+
+.comment-list .comment {
+    border-color: rgb(197, 134, 134);
+}
+
+.comment-list li .comment-meta {
+    background-color: #eabdbd;
+}

@@ -1,0 +1,422 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: XSimply\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-29 11:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.0.4"
+
+#. 2: label, list of categories.
+#. 2: label, list of tags.
+#: inc/template-tags.php:68 inc/template-tags.php:76
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: functions.php:148
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "Allow customization below"
+msgstr ""
+
+#: inc/customizer.php:184
+msgid ""
+"Allowed tags: strong, em. Press \"Enter\" to wrap up. Use {copy} for &copy;, "
+"{year} for current year, {blogname} for blog name."
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:64
+msgid "Archived:"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Background Image Header"
+msgstr ""
+
+#: inc/customizer.php:231 inc/customizer.php:252
+msgid "Center"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "Center Image"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Center the image if the size is smaller than suggested. No fixed cover."
+msgstr ""
+
+#: inc/customizer.php:272
+msgid ""
+"Choose your font (default: Titillium Web). Note: System Ui is the font used "
+"in the user's operating system/browser."
+msgstr ""
+
+#: comments.php:83
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:37
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customizer.php:116
+msgid ""
+"Default 0.7. Set 1 for full color without transparency. 0 for full "
+"transparency."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:35 inc/template-tags.php:105
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Fixed Cover"
+msgstr ""
+
+#: inc/customizer.php:426
+msgid "Fixed Cover works only background image header!"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Font"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:211
+msgid "Full"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.iljester.com"
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.iljester.com/portfolio/xsimply"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "If set, you can customize header text and background color"
+msgstr ""
+
+#. Author of the theme
+msgid "Il Jester"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:42
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:224
+msgid "Layout Alignment"
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Layout Wide"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:88
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/customizer.php:230 inc/customizer.php:251
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Light (default)"
+msgstr ""
+
+#: inc/template-tags.php:73
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: header.php:52
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Menu Alignment"
+msgstr ""
+
+#: inc/customizer.php:43
+msgid "Metal"
+msgstr ""
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#: comments.php:51
+msgid "Next Comments"
+msgstr ""
+
+#: index.php:40 search.php:43 archive.php:41
+msgid "Next Page"
+msgstr ""
+
+#: single.php:31
+msgid "Next Post"
+msgstr ""
+
+#: single.php:32
+msgid "Next post:"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Night"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Normal (default)"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid ""
+"Note. If you are using a background image, use the most suitable color "
+"scheme or set 1 in page opacity (background image section)."
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: index.php:41 image.php:54 search.php:44 archive.php:42
+msgid "Page"
+msgstr ""
+
+#: inc/customizer.php:115
+msgid "Page Opacity"
+msgstr ""
+
+#: image.php:50 template-parts/content-page.php:22
+#: template-parts/content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: single.php:24
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><br/><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: image.php:86
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Piggy"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: footer.php:22
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: comments.php:50
+msgid "Previous Comments"
+msgstr ""
+
+#: index.php:39 search.php:42 archive.php:40
+msgid "Previous Page"
+msgstr ""
+
+#: single.php:34
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:35
+msgid "Previous post:"
+msgstr ""
+
+#: functions.php:56
+msgid "Primary"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/customizer.php:232 inc/customizer.php:253
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Sea"
+msgstr ""
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer.php:390
+msgid "Selecting \"Thin\", the sidebar will be moved to the footer"
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Set image header like fixed cover (only with Background Image Header!)."
+msgstr ""
+
+#: inc/customizer.php:225
+msgid "Set layout alignment (default: \"Center\")."
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Set layout wide"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Set menu alignment (default: \"Left\")."
+msgstr ""
+
+#: functions.php:146
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Site Info"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:72
+msgid "Tagged:"
+msgstr ""
+
+#: inc/template-tags.php:65
+msgctxt "tags item separator"
+msgid ", "
+msgstr ""
+
+#: footer.php:26
+#, php-format
+msgid "Theme %s by %s"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Theme Colors"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Thin"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: inc/customizer.php:259
+msgid "Typography"
+msgstr ""
+
+#: image.php:68
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#. Name of the theme
+msgid "XSimply"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"XSimply is a versatile and light theme, available in different color schemes "
+"to allow a better and effective customization: light (white), metal (gray), "
+"pinky (pink), sea (blue), night (black). The combination of colors combined "
+"with a personalized background image and available fonts can make your site "
+"unique and particular."
+msgstr ""
+
+#: inc/customizer.php:446
+msgid "You are trying to use an html tag not allowed!"
+msgstr ""
+
+#: inc/customizer.php:407
+msgid "You can choose a number between 0 and 1. Decimal allowed."
+msgstr ""
