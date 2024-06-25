@@ -11,13 +11,13 @@
  * Set constat web author link for footer credits
  * Do not move or edit
  */
-define( 'XSIMPLY_AUTHOR_SITE', '<a href="https://www.iljester.com">Il Jester</a>' );
+define( 'XSIMPLY_AUTHOR_SITE', 'https://www.iljester.com' );
 
 /**
  * Define version
  * For any use
  */
-define('XSIMPLY_VER', '1.7');
+define('XSIMPLY_VER', '1.7.1');
 
 /**
  * xsimply setup

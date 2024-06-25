@@ -23,7 +23,7 @@
 			?>
 			<span class="sep"> /&nbsp;/ </span>
 			<?php printf( 
-				esc_html__('Theme %s by %s', 'xsimply' ), 'XSimply', XSIMPLY_AUTHOR_SITE );
+				esc_html__('Theme %s by %s', 'xsimply' ), 'XSimply', '<a href="' . XSIMPLY_AUTHOR_SITE . '">Il Jester</a>' );
 			?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

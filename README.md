@@ -8,7 +8,7 @@ Available localization: italian
 
 ## Compatibility
 
-This version of XSimply is designed for *WordPress*. Although it can also be used on *ClassicPress*, please use the version designed for ClassicPress. You can find it in this repository: [XSimply for ClassicPress]( https://github.com/iljester/xsimply-cp)
+This version of XSimply is designed for **WordPress**. Although it can also be used on **ClassicPress**, please use the version designed for ClassicPress. You can find it in this repository: [XSimply for ClassicPress]( https://github.com/iljester/xsimply-cp)
 
 ## Installation
 
@@ -26,10 +26,10 @@ XSimply includes support for Infinite Scroll in Jetpack.
 
 Go to the "Customize" page (under "Appearance") and then to the colors section
 
-### The background I use is not suitable for certain color schemes. How can I do? =
+### The background I use is not suitable for certain color schemes. How can I do?
 
 Use a background suitable for that color scheme. You can also adjust the transparency of the page (under "Background Image" section) if a background creates difficulty in reading.
 
-### Can I change the theme font? =
+### Can I change the theme font?
 
 From version 1.1, XSimply allows you to customize the font. Fonts available: see inc/customizer.php
