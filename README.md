@@ -1,14 +1,14 @@
 ## Description
 
-XSimply is a versatile and light theme, available in different color schemes to allow a better and effective customization: light (white), metal (gray), pinky (pink), sea (blue), night (black). The combination of colors combined with a personalized background image and available fonts can make your site unique and particular.
+XSimply CP is a versatile and light theme, available in different color schemes to allow a better and effective customization: light (white), metal (gray), pinky (pink), sea (blue), night (black). The combination of colors combined with a personalized background image and available fonts can make your site unique and particular.
 
-For more information about XSimply please go to https://www.iljester.com/portfolio/xsimply
+For more information about XSimply CP please go to https://www.iljester.com/portfolio/xsimply
 
 Available localization: italian
 
 ## Compatibility
 
-This version of XSimply is designed for **WordPress**. Although it can also be used on **ClassicPress**, please use the version designed for ClassicPress. You can find it in this repository: [XSimply for ClassicPress]( https://github.com/iljester/xsimply-cp)
+This version of XSimply CP is designed for **ClassicPress**. Although it can also be used on **WordPress**, please use the version designed for WordPress. You can find it in this repository: [XSimply for WordPress]( https://github.com/iljester/xsimply) or in WordPress repository: [XSimply Theme](https://wordpress.org/themes/xsimply/).
 
 ## Installation
 
@@ -20,7 +20,7 @@ This version of XSimply is designed for **WordPress**. Although it can also be u
 
 ### Does this theme support any plugins?
 
-XSimply includes support for Infinite Scroll in Jetpack.
+XSimply CP not support any plugin yet.
 
 ### Where I change the color scheme? 
 
@@ -32,4 +32,4 @@ Use a background suitable for that color scheme. You can also adjust the transpa
 
 ### Can I change the theme font?
 
-From version 1.1, XSimply allows you to customize the font. Fonts available: see inc/customizer.php
+From version 1.1, XSimply CP allows you to customize the font. Fonts available: see inc/customizer.php

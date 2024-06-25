@@ -2,7 +2,7 @@
 /**
  * Template part for displaying page content in page.php
  *
- * @package XSimply
+ * @package XSimply CP
  */
 
 ?>
@@ -19,7 +19,7 @@
 		the_content();
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'xsimply' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', XSIMPLY_CP ),
 			'after'  => '</div>',
 		) );
 		?>
@@ -32,7 +32,7 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'xsimply' ),
+						__( 'Edit <span class="screen-reader-text">%s</span>', XSIMPLY_CP ),
 						array(
 							'span' => array(
 								'class' => array(),

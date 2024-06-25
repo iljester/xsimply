@@ -7,7 +7,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package XSimply
+ * @package XSimply CP
  */
 
 /*
@@ -32,13 +32,13 @@ if ( post_password_required() ) {
 			if ( '1' === $xsimply_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'xsimply' ),
+					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', XSIMPLY_CP ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			} else {
 				printf( // WPCS: XSS OK.
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $xsimply_comment_count, 'comments title', 'xsimply' ) ),
+					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $xsimply_comment_count, 'comments title', XSIMPLY_CP ) ),
 					number_format_i18n( $xsimply_comment_count ),
 					'<span>' . get_the_title() . '</span>'
 				);
@@ -47,8 +47,8 @@ if ( post_password_required() ) {
 		</h2><!-- .comments-title -->
 
 		<?php the_comments_navigation( array(
-			'prev_text' => __('Previous Comments', 'xsimply' ),
-			'next_text' => __('Next Comments', 'xsimply' )
+			'prev_text' => __('Previous Comments', XSIMPLY_CP ),
+			'next_text' => __('Next Comments', XSIMPLY_CP )
 		) ); ?>
 
 		<ol class="comment-list">
@@ -80,7 +80,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() ) :
 			?>
-			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'xsimply' ); ?></p>
+			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', XSIMPLY_CP ); ?></p>
 			<?php
 		endif;
 
