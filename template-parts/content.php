@@ -2,7 +2,7 @@
 /**
  * Template part for displaying posts
  *
- * @package XSimply
+ * @package XSimply CP
  */
 
 ?>
@@ -34,7 +34,7 @@
 		the_content( sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'xsimply' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', XSIMPLY_CP ),
 				array(
 					'span' => array(
 						'class' => array(),
@@ -45,7 +45,7 @@
 		) );
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'xsimply' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', XSIMPLY_CP ),
 			'after'  => '</div>',
 			'link_before' => '<span class="current">',
 			'link_after' => '</span>'

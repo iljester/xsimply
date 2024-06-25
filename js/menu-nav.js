@@ -1,6 +1,6 @@
 /*!
  * Menu nav
- * @package: XSimply
+ * @package: XSimply CP
  */
 
 jQuery(function($) {

@@ -2,7 +2,7 @@
 /**
  * The template for displaying image attachments
  *
- * @package XSimply
+ * @package XSimply CP
  */
 
 get_header();
@@ -47,11 +47,11 @@ get_header();
 							the_content();
 							wp_link_pages(
 								array(
-									'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'xsimply' ) . '</span>',
+									'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', XSIMPLY_CP ) . '</span>',
 									'after'       => '</div>',
 									'link_before' => '<span>',
 									'link_after'  => '</span>',
-									'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'xsimply' ) . ' </span>%',
+									'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', XSIMPLY_CP ) . ' </span>%',
 									'separator'   => '<span class="screen-reader-text">, </span>',
 								)
 							);
@@ -65,7 +65,7 @@ get_header();
 							if ( $metadata ) {
 								printf(
 									'<span class="full-size-link"><span class="screen-reader-text">%1$s</span><a href="%2$s">%3$s &times; %4$s</a></span>',
-									_x( 'Full size', 'Used before full size attachment link.', 'xsimply' ),
+									_x( 'Full size', 'Used before full size attachment link.', XSIMPLY_CP ),
 									esc_url( wp_get_attachment_url() ),
 									absint( $metadata['width'] ),
 									absint( $metadata['height'] )
@@ -83,7 +83,7 @@ get_header();
                 if( xsimply_attachment_has_post_parent() ) {
 					the_post_navigation(
 						array(
-							'prev_text' => _x( '<span class="meta-nav">Published in</span><br><span class="post-title">%title</span>', 'Parent post link', 'xsimply' ),
+							'prev_text' => _x( '<span class="meta-nav">Published in</span><br><span class="post-title">%title</span>', 'Parent post link', XSIMPLY_CP ),
 						)
                     );
                 }

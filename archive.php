@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package XSimply
+ * @package XSimply CP
  */
 
 get_header();
@@ -37,9 +37,9 @@ get_header();
 			endwhile;
 
 			the_posts_pagination( array(
-				'prev_text' => '&larr; <span class="screen-reader-text">' . __( 'Previous Page', 'xsimply' ) . '</span>',
-				'next_text' => '<span class="screen-reader-text">' . __( 'Next Page', 'xsimply' ) . '</span> &rarr;',
-				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'xsimply' ) . ' </span>',
+				'prev_text' => '&larr; <span class="screen-reader-text">' . __( 'Previous Page', XSIMPLY_CP ) . '</span>',
+				'next_text' => '<span class="screen-reader-text">' . __( 'Next Page', XSIMPLY_CP ) . '</span> &rarr;',
+				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', XSIMPLY_CP ) . ' </span>',
 			) );
 
 		else :

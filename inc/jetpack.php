@@ -2,7 +2,7 @@
 /**
  * Jetpack Compatibility File
  *
- * @package XSimply
+ * @package XSimply CP
  */
 
 /**
