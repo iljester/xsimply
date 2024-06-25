@@ -1,10 +1,10 @@
 <?php
 /**
- * XSimply CP functions and definitions
+ * XSimply functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package XSimply CP
+ * @package XSimply
  */
 
 /**
@@ -17,12 +17,7 @@ define( 'XSIMPLY_AUTHOR_SITE', 'https://www.iljester.com' );
  * Define version
  * For any use
  */
-define('XSIMPLY_VER', '1.0');
-
-/**
- * Define domain
- */
-define( 'XSIMPLY_CP', 'xsimply-cp');
+define('XSIMPLY_VER', '1.7.1');
 
 /**
  * xsimply setup
@@ -39,10 +34,10 @@ if ( ! function_exists( 'xsimply_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on XSimply CP, use a find and replace
-		 * to change XSIMPLY_CP to the name of your theme in all the template files.
+		 * If you're building a theme based on X-Simply, use a find and replace
+		 * to change 'xsimply' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( XSIMPLY_CP, get_template_directory() . '/languages' );
+		load_theme_textdomain( 'xsimply', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -64,7 +59,7 @@ if ( ! function_exists( 'xsimply_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', XSIMPLY_CP ),
+			'menu-1' => esc_html__( 'Primary', 'xsimply' ),
 		) );
 
 		/*
@@ -154,9 +149,9 @@ add_action( 'after_setup_theme', 'xsimply_content_width', 0 );
  */
 function xsimply_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', XSIMPLY_CP ),
+		'name'          => esc_html__( 'Sidebar', 'xsimply' ),
 		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', XSIMPLY_CP ),
+		'description'   => esc_html__( 'Add widgets here.', 'xsimply' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',

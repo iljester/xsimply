@@ -2,7 +2,7 @@
 /**
  * Template part for displaying results in search pages
  *
- * @package XSimply CP
+ * @package XSimply
  */
 
 ?>

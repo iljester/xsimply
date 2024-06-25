@@ -26,7 +26,7 @@ if ( ! function_exists( 'xsimply_posted_on' ) ) :
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x( 'Posted on %s', 'post date', XSIMPLY_CP ),
+			esc_html_x( 'Posted on %s', 'post date', 'xsimply' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
@@ -42,7 +42,7 @@ if ( ! function_exists( 'xsimply_posted_by' ) ) :
 	function xsimply_posted_by() {
 		$byline = sprintf(
 			/* translators: %s: post author. */
-			esc_html_x( 'by %s', 'post author', XSIMPLY_CP ),
+			esc_html_x( 'by %s', 'post author', 'xsimply' ),
 			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">'
 			. esc_html( get_the_author() ) . '</a>'
 			. '</span>'
@@ -61,19 +61,19 @@ if ( ! function_exists( 'xsimply_entry_footer' ) ) :
 		// Hide category and tag text for pages.
 		if ( 'post' === get_post_type() ) {
 			/* translators: used between list items, there is a space after the comma */
-			$categories_label = '<span class="cat-label">' . esc_html__('Archived:', XSIMPLY_CP ) . '</span>';
-			$categories_list  = get_the_category_list( esc_html_x( ', ', 'tags item separator', XSIMPLY_CP ) );
+			$categories_label = '<span class="cat-label">' . esc_html__('Archived:', 'xsimply' ) . '</span>';
+			$categories_list  = get_the_category_list( esc_html_x( ', ', 'tags item separator', 'xsimply' ) );
 			if ( $categories_list ) {
 				/* translators: 2: label, list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( '%1$s %2$s', XSIMPLY_CP ) . '</span>', $categories_label, $categories_list ); // WPCS: XSS OK.
+				printf( '<span class="cat-links">' . esc_html__( '%1$s %2$s', 'xsimply' ) . '</span>', $categories_label, $categories_list ); // WPCS: XSS OK.
 			}
 
 			/* translators: used between list items, there is a space after the comma */
-			$tags_label = '<span class="tag-label">' . esc_html__('Tagged:', XSIMPLY_CP ) . '</span>';
-			$tags_list  = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', XSIMPLY_CP ) );
+			$tags_label = '<span class="tag-label">' . esc_html__('Tagged:', 'xsimply' ) . '</span>';
+			$tags_list  = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'xsimply' ) );
 			if ( $tags_list ) {
 				/* translators: 2: label, list of tags. */
-				printf( '<span class="tags-links">' . esc_html__( '%1$s %2$s', XSIMPLY_CP ) . '</span>', $tags_label, $tags_list ); // WPCS: XSS OK.
+				printf( '<span class="tags-links">' . esc_html__( '%1$s %2$s', 'xsimply' ) . '</span>', $tags_label, $tags_list ); // WPCS: XSS OK.
 			}
 		}
 
@@ -85,7 +85,7 @@ if ( ! function_exists( 'xsimply_entry_footer' ) ) :
 				sprintf(
 					wp_kses(
 						/* translators: %s: post title */
-						__( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', XSIMPLY_CP ),
+						__( 'Leave a Comment<span class="screen-reader-text"> on %s</span>', 'xsimply' ),
 						array(
 							'span' => array(
 								'class' => array(),
@@ -102,7 +102,7 @@ if ( ! function_exists( 'xsimply_entry_footer' ) ) :
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Edit <span class="screen-reader-text">%s</span>', XSIMPLY_CP ),
+					__( 'Edit <span class="screen-reader-text">%s</span>', 'xsimply' ),
 					array(
 						'span' => array(
 							'class' => array(),

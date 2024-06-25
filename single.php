@@ -2,7 +2,7 @@
 /**
  * The template for displaying all single posts
  *
- * @package XSimply CP
+ * @package XSimply
  */
 
 get_header();
@@ -21,18 +21,18 @@ get_header();
 				// Parent post navigation.
 				the_post_navigation(
 					array(
-						'prev_text' => _x( '<span class="meta-nav">Published in</span><br/><span class="post-title">%title</span>', 'Parent post link', XSIMPLY_CP ),
+						'prev_text' => _x( '<span class="meta-nav">Published in</span><br/><span class="post-title">%title</span>', 'Parent post link', 'xsimply' ),
 					)
 				);
 			} elseif ( is_singular( 'post' ) ) {
 				// Previous/next post navigation.
 				the_post_navigation(
 					array(
-						'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next Post', XSIMPLY_CP ) . '</span> ' .
-							'<span class="screen-reader-text">' . __( 'Next post:', XSIMPLY_CP ) . '</span> <br/>' .
+						'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next Post', 'xsimply' ) . '</span> ' .
+							'<span class="screen-reader-text">' . __( 'Next post:', 'xsimply' ) . '</span> <br/>' .
 							'<span class="post-title">%title</span>',
-						'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous Post', XSIMPLY_CP ) . '</span> ' .
-							'<span class="screen-reader-text">' . __( 'Previous post:', XSIMPLY_CP ) . '</span> <br/>' .
+						'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous Post', 'xsimply' ) . '</span> ' .
+							'<span class="screen-reader-text">' . __( 'Previous post:', 'xsimply' ) . '</span> <br/>' .
 							'<span class="post-title">%title</span>',
 					)
 				);

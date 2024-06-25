@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package XSimply CP
+ * @package XSimply
  */
 ?>
 
@@ -19,11 +19,11 @@
 		</div>
 		<div class="site-info">
 			<?php printf( 
-				esc_html__('Powered by %s', XSIMPLY_CP ), '<a href="https://wordpress.org/">Wordpress</a>' );
+				esc_html__('Powered by %s', 'xsimply' ), '<a href="https://wordpress.org/">Wordpress</a>' );
 			?>
 			<span class="sep"> /&nbsp;/ </span>
 			<?php printf( 
-				esc_html__('Theme %s by %s', XSIMPLY_CP ), XSIMPLY_CP, '<a href="' . XSIMPLY_AUTHOR_SITE . '">Il Jester</a>' );
+				esc_html__('Theme %s by %s', 'xsimply' ), 'XSimply', '<a href="' . XSIMPLY_AUTHOR_SITE . '">Il Jester</a>' );
 			?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

@@ -2,7 +2,7 @@
 /**
  * The sidebar content area
  *
- * @package XSimply CP
+ * @package XSimply
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {

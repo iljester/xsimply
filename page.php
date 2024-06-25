@@ -2,7 +2,7 @@
 /**
  * The template for displaying all pages
  *
- * @package XSimply CP
+ * @package XSimply
  */
 
 get_header();

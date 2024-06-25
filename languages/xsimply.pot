@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: XSimply CP\n"
+"Project-Id-Version: XSimply\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-29 11:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -401,12 +401,12 @@ msgid "Full size"
 msgstr ""
 
 #. Name of the theme
-msgid "XSimply CP"
+msgid "XSimply"
 msgstr ""
 
 #. Description of the theme
 msgid ""
-"XSimply CP is a versatile and light theme, available in different color schemes "
+"XSimply is a versatile and light theme, available in different color schemes "
 "to allow a better and effective customization: light (white), metal (gray), "
 "pinky (pink), sea (blue), night (black). The combination of colors combined "
 "with a personalized background image and available fonts can make your site "
