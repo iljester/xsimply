@@ -25,6 +25,7 @@ function xsimply_fonts() {
 		'noto_sans_jp'	 => 'Noto Sans JP',
 		'nunito'		 => 'Nunito',
 		'open_sans' 	 => 'Open Sans',
+		'playfair_display' => 'Playfair Display',
 		'poppins'		 => 'Poppins',
 		'pt_sans'		 => 'PT Sans',
 		'quicksand'		 => 'Quicksand',
@@ -33,8 +34,9 @@ function xsimply_fonts() {
 		'roboto'		 => 'Roboto',
 		'roboto_slab'	 => 'Roboto Slab',
 		'roboto_condensed' => 'Roboto Condensed',
-		'source-serif-pro' => 'Source Serif Pro',
-		'system_ui' 	 => 'System UI' 
+		'source_serif_pro' => 'Source Serif Pro',
+		'system_ui' 	 => 'System UI',
+		'ubuntu'		 => 'Ubuntu' 
 	);
 	return $fonts;
 
@@ -193,6 +195,37 @@ function xsimply_customize_register( $wp_customize ) {
 		'settings'   => 'xsimply_my_site_cp',
 		'type'       => 'textarea'
 	));
+
+	$wp_customize->add_setting('xsimply_hide_cms_credits', array(
+		'default'           => 0,
+		'sanitize_callback' => 'absint',
+		'transport'         => 'refresh',
+		'capability'        => 'edit_theme_options',
+	));
+
+	$wp_customize->add_control('xsimply_hide_cms_credits', array(
+		'label'      => sprintf( __('Hide %s credits', 'xsimply'), 'WordPress' ),
+		'description' => sprintf( __('You can support the development and diffusion of %s by leaving credits.', 'xsimply' ), 'WordPress'),
+		'section'    => 'xsimply_footer',
+		'settings'   => 'xsimply_hide_cms_credits',
+		'type'       => 'checkbox'
+	));
+
+	$wp_customize->add_setting('xsimply_hide_theme_credits', array(
+		'default'           => 0,
+		'sanitize_callback' => 'absint',
+		'transport'         => 'refresh',
+		'capability'        => 'edit_theme_options',
+	));
+
+	$wp_customize->add_control('xsimply_hide_theme_credits', array(
+		'label'      => sprintf( __('Hide %s credits', 'xsimply'), 'XSimply' ),
+		'description' => sprintf( __('You can support the development and diffusion of %s by leaving credits.', 'xsimply' ), 'XSimply'),
+		'section'    => 'xsimply_footer',
+		'settings'   => 'xsimply_hide_theme_credits',
+		'type'       => 'checkbox'
+	));
+
 
 	$wp_customize->add_section('xsimply_layout', array(
 		'title' => __( 'Layout', 'xsimply' ),

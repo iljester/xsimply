@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: XSimply\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-10 15:33+0000\n"
-"PO-Revision-Date: 2022-03-29 11:08+0000\n"
+"PO-Revision-Date: 2024-06-26 19:08+0000\n"
 "Last-Translator: iljester <muradavi@gmail.com>\n"
-"Language-Team: Italiano\n"
+"Language-Team: Italian (Italy)\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: functions.php:148
+#: functions.php:168
 msgid "Add widgets here."
 msgstr "Aggiungi i widget qui."
 
-#: inc/customizer.php:99
+#: inc/customizer.php:108
 msgid "Allow customization below"
 msgstr "Permetti personalizzazione sotto"
 
-#: inc/customizer.php:184
+#: inc/customizer.php:193
 msgid ""
 "Allowed tags: strong, em. Press \"Enter\" to wrap up. Use {copy} for &copy;, "
 "{year} for current year, {blogname} for blog name."
@@ -45,25 +45,25 @@ msgstr ""
 msgid "Archived:"
 msgstr "Archiviato:"
 
-#: inc/customizer.php:149
+#: inc/customizer.php:158
 msgid "Background Image Header"
 msgstr "Immagine di sfondo della testata"
 
-#: inc/customizer.php:231 inc/customizer.php:252
+#: inc/customizer.php:271 inc/customizer.php:292
 msgid "Center"
 msgstr "Centro"
 
-#: inc/customizer.php:134
+#: inc/customizer.php:143
 msgid "Center Image"
 msgstr "Centra immagine"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:144
 msgid "Center the image if the size is smaller than suggested. No fixed cover."
 msgstr ""
 "Centra l'immagine se la dimensione è più piccola di quella suggerita. No "
 "cover fissa."
 
-#: inc/customizer.php:272
+#: inc/customizer.php:312
 msgid ""
 "Choose your font (default: Titillium Web). Note: System Ui is the font used "
 "in the user's operating system/browser."
@@ -90,7 +90,7 @@ msgstr[1] "%1$s commenti su &ldquo;%2$s&rdquo;"
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Continua a leggere<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: inc/customizer.php:116
+#: inc/customizer.php:125
 msgid ""
 "Default 0.7. Set 1 for full color without transparency. 0 for full "
 "transparency."
@@ -99,32 +99,37 @@ msgstr ""
 "piena trasparenza."
 
 #. %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:35 inc/template-tags.php:105
+#: inc/template-tags.php:105 template-parts/content-page.php:35
 #, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Modifica <span class=\"screen-reader-text\">%s</span>"
 
-#: inc/customizer.php:163
+#: inc/customizer.php:172
 msgid "Fixed Cover"
 msgstr "Cover fissa"
 
-#: inc/customizer.php:426
+#: inc/customizer.php:466
 msgid "Fixed Cover works only background image header!"
 msgstr ""
 "La cover fissa funziona solo se è impostata l'immagine di sfondo della "
 "testata!"
 
-#: inc/customizer.php:271
+#: inc/customizer.php:311
 msgid "Font"
 msgstr "Carattere"
 
-#: inc/customizer.php:171
+#: inc/customizer.php:180
 msgid "Footer"
 msgstr "Piè di Pagina"
 
-#: inc/customizer.php:211
+#: inc/customizer.php:251
 msgid "Full"
 msgstr "Largo"
+
+#: inc/customizer.php:207 inc/customizer.php:222
+#, php-format
+msgid "Hide %s credits"
+msgstr "Nascondi i crediti per %s"
 
 #. Author URI of the theme
 msgid "http://www.iljester.com"
@@ -134,7 +139,7 @@ msgstr "http://www.iljester.com"
 msgid "http://www.iljester.com/portfolio/xsimply"
 msgstr "http://www.iljester.com/portfolio/xsimply"
 
-#: inc/customizer.php:100
+#: inc/customizer.php:109
 msgid "If set, you can customize header text and background color"
 msgstr ""
 "Se impostato puoi personalizzare il colore dello sfondo e del testo della "
@@ -160,15 +165,15 @@ msgstr ""
 "Sembra che non possiamo trovare quello che stai cercando. Forse la funzione "
 "ricerca può aiutare."
 
-#: inc/customizer.php:191
+#: inc/customizer.php:231
 msgid "Layout"
 msgstr "Layout"
 
-#: inc/customizer.php:224
+#: inc/customizer.php:264
 msgid "Layout Alignment"
 msgstr "Allineamento Layout"
 
-#: inc/customizer.php:203
+#: inc/customizer.php:243
 msgid "Layout Wide"
 msgstr "Dimensione Layout"
 
@@ -178,11 +183,11 @@ msgstr "Dimensione Layout"
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Lascia un commento<span class=\"screen-reader-text\"> su %s</span>"
 
-#: inc/customizer.php:230 inc/customizer.php:251
+#: inc/customizer.php:270 inc/customizer.php:291
 msgid "Left"
 msgstr "Sinistra"
 
-#: inc/customizer.php:42
+#: inc/customizer.php:51
 msgid "Light (default)"
 msgstr "Chiaro (Predefinito)"
 
@@ -195,11 +200,11 @@ msgstr ", "
 msgid "Menu"
 msgstr "Menu"
 
-#: inc/customizer.php:245
+#: inc/customizer.php:285
 msgid "Menu Alignment"
 msgstr "Allineamento Menù"
 
-#: inc/customizer.php:43
+#: inc/customizer.php:52
 msgid "Metal"
 msgstr "Metallico"
 
@@ -211,7 +216,7 @@ msgstr "Le Categorie più usate"
 msgid "Next Comments"
 msgstr "Commenti successivi"
 
-#: index.php:40 search.php:43 archive.php:41
+#: index.php:40 archive.php:41 search.php:43
 msgid "Next Page"
 msgstr "Pagina successiva"
 
@@ -223,15 +228,15 @@ msgstr "Post successivo"
 msgid "Next post:"
 msgstr "Post successivo:"
 
-#: inc/customizer.php:46
+#: inc/customizer.php:55
 msgid "Night"
 msgstr "Notte"
 
-#: inc/customizer.php:210
+#: inc/customizer.php:250
 msgid "Normal (default)"
 msgstr "Normale (default)"
 
-#: inc/customizer.php:83
+#: inc/customizer.php:92
 msgid ""
 "Note. If you are using a background image, use the most suitable color "
 "scheme or set 1 in page opacity (background image section)."
@@ -253,11 +258,11 @@ msgstr "Un commento su &ldquo;%1$s&rdquo;"
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Oops! La pagina non è stata trovata."
 
-#: index.php:41 image.php:54 search.php:44 archive.php:42
+#: index.php:41 archive.php:42 search.php:44 image.php:54
 msgid "Page"
 msgstr "Pagina"
 
-#: inc/customizer.php:115
+#: inc/customizer.php:124
 msgid "Page Opacity"
 msgstr "Opacità Pagina"
 
@@ -284,7 +289,7 @@ msgstr ""
 "<span class=\"meta-nav\">Pubblicato in</span><br><span class=\"post-title\">"
 "%title</span>"
 
-#: inc/customizer.php:44
+#: inc/customizer.php:53
 msgid "Piggy"
 msgstr "Rosa"
 
@@ -302,7 +307,7 @@ msgctxt "post date"
 msgid "Posted on %s"
 msgstr "Pubblicato il %s"
 
-#: footer.php:22
+#: footer.php:22 inc/template-tags.php:220
 #, php-format
 msgid "Powered by %s"
 msgstr "Motorizzato %s"
@@ -311,7 +316,7 @@ msgstr "Motorizzato %s"
 msgid "Previous Comments"
 msgstr "Commenti precedenti"
 
-#: index.php:39 search.php:42 archive.php:40
+#: index.php:39 archive.php:40 search.php:42
 msgid "Previous Page"
 msgstr "Pagina precedente"
 
@@ -323,7 +328,7 @@ msgstr "Post precedente"
 msgid "Previous post:"
 msgstr "Post precedente:"
 
-#: functions.php:56
+#: functions.php:68
 msgid "Primary"
 msgstr "Primario"
 
@@ -335,11 +340,11 @@ msgid ""
 msgstr ""
 "Pronto per pubblicare il tuo primo post? <a href=\"%1$s\">Parti da qui</a>."
 
-#: inc/customizer.php:232 inc/customizer.php:253
+#: inc/customizer.php:272 inc/customizer.php:293
 msgid "Right"
 msgstr "Destra"
 
-#: inc/customizer.php:45
+#: inc/customizer.php:54
 msgid "Sea"
 msgstr "Mare"
 
@@ -349,11 +354,11 @@ msgstr "Mare"
 msgid "Search Results for: %s"
 msgstr "Risultato della ricerca per: %s"
 
-#: inc/customizer.php:390
+#: inc/customizer.php:430
 msgid "Selecting \"Thin\", the sidebar will be moved to the footer"
 msgstr "Selezionando \"Stretto\", la sidebar verrà spostata nel footer"
 
-#: inc/customizer.php:164
+#: inc/customizer.php:173
 #| msgid ""
 #| "Set image header like fixed cover (only with Background Image Header!)"
 msgid "Set image header like fixed cover (only with Background Image Header!)."
@@ -361,24 +366,24 @@ msgstr ""
 "Imposta un'immagine della testata come cover fissa (solo con Immagine di "
 "sfondo della Testata!)"
 
-#: inc/customizer.php:225
+#: inc/customizer.php:265
 #| msgid "Set layout alignment (default: center)."
 msgid "Set layout alignment (default: \"Center\")."
 msgstr "Imposta l'allineamento del layout (default: centro)."
 
-#: inc/customizer.php:204
+#: inc/customizer.php:244
 msgid "Set layout wide"
 msgstr "Imposta larghezza del layout"
 
-#: inc/customizer.php:246
+#: inc/customizer.php:286
 msgid "Set menu alignment (default: \"Left\")."
 msgstr "Imposta l'allineamento del menu (default: \"Sinistra\")"
 
-#: functions.php:146
+#: functions.php:166
 msgid "Sidebar"
 msgstr "Barra Laterale"
 
-#: inc/customizer.php:183
+#: inc/customizer.php:192
 msgid "Site Info"
 msgstr "Info del Sito"
 
@@ -409,11 +414,16 @@ msgstr ", "
 msgid "Theme %s by %s"
 msgstr "Tema %s di %s"
 
-#: inc/customizer.php:82
+#: inc/template-tags.php:231
+#, php-format
+msgid "Theme %s by Il Jester"
+msgstr "Tema %s di Il Jester"
+
+#: inc/customizer.php:91
 msgid "Theme Colors"
 msgstr "Colori del Tema"
 
-#: inc/customizer.php:209
+#: inc/customizer.php:249
 msgid "Thin"
 msgstr "Stretto"
 
@@ -423,7 +433,7 @@ msgstr "Stretto"
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Prova a cercare negli archivi mensili. %1$s"
 
-#: inc/customizer.php:259
+#: inc/customizer.php:299
 msgid "Typography"
 msgstr "Tipografia"
 
@@ -438,22 +448,20 @@ msgstr "XSimply"
 
 #. Description of the theme
 msgid ""
-"XSimply is a versatile and light theme, available in different color schemes "
-"to allow a better and effective customization: light (white), metal (gray), "
-"pinky (pink), sea (blue), night (black). The combination of colors combined "
-"with a personalized background image and available fonts can make your site "
-"unique and particular."
+"XSimply is a versatile and light theme, available in different color schemes"
 msgstr ""
-"XSimply è un tema versatile e leggero, disponibile in diverse colorazioni "
-"per consentire una migliore ed efficace personalizzazione: chiaro (bianco), "
-"metal (grigio), mignolo (rosa), mare (blu), notte (nero). La combinazione di "
-"colori unita ad un'immagine di sfondo personalizzata e ai font disponibili "
-"possono rendere il tuo sito unico e particolare."
+"XSimply è un tema versatile e leggero, disponibile in schemi di colori "
+"differenti"
 
-#: inc/customizer.php:446
+#: inc/customizer.php:486
 msgid "You are trying to use an html tag not allowed!"
 msgstr "Stai cercando di usare un tag html non permesso!"
 
-#: inc/customizer.php:407
+#: inc/customizer.php:447
 msgid "You can choose a number between 0 and 1. Decimal allowed."
 msgstr "Puoi scegliere un numero tra 0 e 1. I decimali sono permessi."
+
+#: inc/customizer.php:208 inc/customizer.php:223
+#, php-format
+msgid "You can support the development and diffusion of %s by leaving credits."
+msgstr "Puoi supportare lo sviluppo e la diffusione di %s lasciando i crediti."

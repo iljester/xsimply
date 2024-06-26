@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: XSimply\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-29 11:08+0000\n"
+"POT-Creation-Date: 2024-06-26 19:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -22,15 +22,15 @@ msgstr ""
 msgid "%1$s %2$s"
 msgstr ""
 
-#: functions.php:148
+#: functions.php:168
 msgid "Add widgets here."
 msgstr ""
 
-#: inc/customizer.php:99
+#: inc/customizer.php:108
 msgid "Allow customization below"
 msgstr ""
 
-#: inc/customizer.php:184
+#: inc/customizer.php:193
 msgid ""
 "Allowed tags: strong, em. Press \"Enter\" to wrap up. Use {copy} for &copy;, "
 "{year} for current year, {blogname} for blog name."
@@ -41,23 +41,23 @@ msgstr ""
 msgid "Archived:"
 msgstr ""
 
-#: inc/customizer.php:149
+#: inc/customizer.php:158
 msgid "Background Image Header"
 msgstr ""
 
-#: inc/customizer.php:231 inc/customizer.php:252
+#: inc/customizer.php:271 inc/customizer.php:292
 msgid "Center"
 msgstr ""
 
-#: inc/customizer.php:134
+#: inc/customizer.php:143
 msgid "Center Image"
 msgstr ""
 
-#: inc/customizer.php:135
+#: inc/customizer.php:144
 msgid "Center the image if the size is smaller than suggested. No fixed cover."
 msgstr ""
 
-#: inc/customizer.php:272
+#: inc/customizer.php:312
 msgid ""
 "Choose your font (default: Titillium Web). Note: System Ui is the font used "
 "in the user's operating system/browser."
@@ -82,36 +82,41 @@ msgstr[1] ""
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: inc/customizer.php:116
+#: inc/customizer.php:125
 msgid ""
 "Default 0.7. Set 1 for full color without transparency. 0 for full "
 "transparency."
 msgstr ""
 
 #. %s: Name of current post. Only visible to screen readers
-#: template-parts/content-page.php:35 inc/template-tags.php:105
+#: inc/template-tags.php:105 template-parts/content-page.php:35
 #, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: inc/customizer.php:163
+#: inc/customizer.php:172
 msgid "Fixed Cover"
 msgstr ""
 
-#: inc/customizer.php:426
+#: inc/customizer.php:466
 msgid "Fixed Cover works only background image header!"
 msgstr ""
 
-#: inc/customizer.php:271
+#: inc/customizer.php:311
 msgid "Font"
 msgstr ""
 
-#: inc/customizer.php:171
+#: inc/customizer.php:180
 msgid "Footer"
 msgstr ""
 
-#: inc/customizer.php:211
+#: inc/customizer.php:251
 msgid "Full"
+msgstr ""
+
+#: inc/customizer.php:207 inc/customizer.php:222
+#, php-format
+msgid "Hide %s credits"
 msgstr ""
 
 #. Author URI of the theme
@@ -122,7 +127,7 @@ msgstr ""
 msgid "http://www.iljester.com/portfolio/xsimply"
 msgstr ""
 
-#: inc/customizer.php:100
+#: inc/customizer.php:109
 msgid "If set, you can customize header text and background color"
 msgstr ""
 
@@ -142,15 +147,15 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: inc/customizer.php:191
+#: inc/customizer.php:231
 msgid "Layout"
 msgstr ""
 
-#: inc/customizer.php:224
+#: inc/customizer.php:264
 msgid "Layout Alignment"
 msgstr ""
 
-#: inc/customizer.php:203
+#: inc/customizer.php:243
 msgid "Layout Wide"
 msgstr ""
 
@@ -160,11 +165,11 @@ msgstr ""
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
-#: inc/customizer.php:230 inc/customizer.php:251
+#: inc/customizer.php:270 inc/customizer.php:291
 msgid "Left"
 msgstr ""
 
-#: inc/customizer.php:42
+#: inc/customizer.php:51
 msgid "Light (default)"
 msgstr ""
 
@@ -177,11 +182,11 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
-#: inc/customizer.php:245
+#: inc/customizer.php:285
 msgid "Menu Alignment"
 msgstr ""
 
-#: inc/customizer.php:43
+#: inc/customizer.php:52
 msgid "Metal"
 msgstr ""
 
@@ -193,7 +198,7 @@ msgstr ""
 msgid "Next Comments"
 msgstr ""
 
-#: index.php:40 search.php:43 archive.php:41
+#: index.php:40 archive.php:41 search.php:43
 msgid "Next Page"
 msgstr ""
 
@@ -205,15 +210,15 @@ msgstr ""
 msgid "Next post:"
 msgstr ""
 
-#: inc/customizer.php:46
+#: inc/customizer.php:55
 msgid "Night"
 msgstr ""
 
-#: inc/customizer.php:210
+#: inc/customizer.php:250
 msgid "Normal (default)"
 msgstr ""
 
-#: inc/customizer.php:83
+#: inc/customizer.php:92
 msgid ""
 "Note. If you are using a background image, use the most suitable color "
 "scheme or set 1 in page opacity (background image section)."
@@ -233,11 +238,11 @@ msgstr ""
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: index.php:41 image.php:54 search.php:44 archive.php:42
+#: index.php:41 archive.php:42 search.php:44 image.php:54
 msgid "Page"
 msgstr ""
 
-#: inc/customizer.php:115
+#: inc/customizer.php:124
 msgid "Page Opacity"
 msgstr ""
 
@@ -260,7 +265,7 @@ msgid ""
 "%title</span>"
 msgstr ""
 
-#: inc/customizer.php:44
+#: inc/customizer.php:53
 msgid "Piggy"
 msgstr ""
 
@@ -278,7 +283,7 @@ msgctxt "post date"
 msgid "Posted on %s"
 msgstr ""
 
-#: footer.php:22
+#: footer.php:22 inc/template-tags.php:220
 #, php-format
 msgid "Powered by %s"
 msgstr ""
@@ -287,7 +292,7 @@ msgstr ""
 msgid "Previous Comments"
 msgstr ""
 
-#: index.php:39 search.php:42 archive.php:40
+#: index.php:39 archive.php:40 search.php:42
 msgid "Previous Page"
 msgstr ""
 
@@ -299,7 +304,7 @@ msgstr ""
 msgid "Previous post:"
 msgstr ""
 
-#: functions.php:56
+#: functions.php:68
 msgid "Primary"
 msgstr ""
 
@@ -310,11 +315,11 @@ msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: inc/customizer.php:232 inc/customizer.php:253
+#: inc/customizer.php:272 inc/customizer.php:293
 msgid "Right"
 msgstr ""
 
-#: inc/customizer.php:45
+#: inc/customizer.php:54
 msgid "Sea"
 msgstr ""
 
@@ -324,31 +329,31 @@ msgstr ""
 msgid "Search Results for: %s"
 msgstr ""
 
-#: inc/customizer.php:390
+#: inc/customizer.php:430
 msgid "Selecting \"Thin\", the sidebar will be moved to the footer"
 msgstr ""
 
-#: inc/customizer.php:164
+#: inc/customizer.php:173
 msgid "Set image header like fixed cover (only with Background Image Header!)."
 msgstr ""
 
-#: inc/customizer.php:225
+#: inc/customizer.php:265
 msgid "Set layout alignment (default: \"Center\")."
 msgstr ""
 
-#: inc/customizer.php:204
+#: inc/customizer.php:244
 msgid "Set layout wide"
 msgstr ""
 
-#: inc/customizer.php:246
+#: inc/customizer.php:286
 msgid "Set menu alignment (default: \"Left\")."
 msgstr ""
 
-#: functions.php:146
+#: functions.php:166
 msgid "Sidebar"
 msgstr ""
 
-#: inc/customizer.php:183
+#: inc/customizer.php:192
 msgid "Site Info"
 msgstr ""
 
@@ -377,11 +382,16 @@ msgstr ""
 msgid "Theme %s by %s"
 msgstr ""
 
-#: inc/customizer.php:82
+#: inc/template-tags.php:231
+#, php-format
+msgid "Theme %s by Il Jester"
+msgstr ""
+
+#: inc/customizer.php:91
 msgid "Theme Colors"
 msgstr ""
 
-#: inc/customizer.php:209
+#: inc/customizer.php:249
 msgid "Thin"
 msgstr ""
 
@@ -391,7 +401,7 @@ msgstr ""
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
-#: inc/customizer.php:259
+#: inc/customizer.php:299
 msgid "Typography"
 msgstr ""
 
@@ -406,17 +416,18 @@ msgstr ""
 
 #. Description of the theme
 msgid ""
-"XSimply is a versatile and light theme, available in different color schemes "
-"to allow a better and effective customization: light (white), metal (gray), "
-"pinky (pink), sea (blue), night (black). The combination of colors combined "
-"with a personalized background image and available fonts can make your site "
-"unique and particular."
+"XSimply is a versatile and light theme, available in different color schemes"
 msgstr ""
 
-#: inc/customizer.php:446
+#: inc/customizer.php:486
 msgid "You are trying to use an html tag not allowed!"
 msgstr ""
 
-#: inc/customizer.php:407
+#: inc/customizer.php:447
 msgid "You can choose a number between 0 and 1. Decimal allowed."
+msgstr ""
+
+#: inc/customizer.php:208 inc/customizer.php:223
+#, php-format
+msgid "You can support the development and diffusion of %s by leaving credits."
 msgstr ""

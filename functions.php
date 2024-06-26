@@ -8,16 +8,22 @@
  */
 
 /**
- * Set constat web author link for footer credits
+ * Set constant web author link for footer credits
  * Do not move or edit
  */
-define( 'XSIMPLY_AUTHOR_SITE', 'https://www.iljester.com' );
+define( 'XSIMPLY_THEME_LINK', 'https://github.com/iljester/xsimply-cp' );
+
+/**
+ * Set constant for cms credits
+ * Do not move or edit
+ */
+define('XSIMPLY_CMS_LINK', 'https://wordpress.org/');
 
 /**
  * Define version
  * For any use
  */
-define('XSIMPLY_VER', '1.7.1');
+define('XSIMPLY_VER', '1.8.0');
 
 /**
  * xsimply setup
@@ -119,6 +125,14 @@ if ( ! function_exists( 'xsimply_setup' ) ) :
 		 * Add Custom font to editor style
 		 */
 		$selected_font = get_theme_mod( 'xsimply_typography_choices', 'titillium_web' );
+		/**
+		 * For users who have set up Source Serif Pro with the previous version. 
+		 * May generate an undefined key warning. This gets around the problem. 
+		 * It will be removed with the next update.
+		 */
+		if( $selected_font === 'source-serif-pro' ) {
+			$selected_font = 'source_serif_pro';
+		}
 		$fonts = xsimply_fonts();
 		$font  = sanitize_text_field( str_replace(" ", "+", $fonts[$selected_font] ) );
 		$font_url = str_replace( ',', '%2C', "//fonts.googleapis.com/css?family={$font}:400,400i,700,700i&display=swap" );
@@ -183,6 +197,14 @@ function xsimply_scripts() {
 
 	// append font
 	$selected_font = get_theme_mod( 'xsimply_typography_choices', 'titillium_web' );
+	/**
+	 * For users who have set up Source Serif Pro with the previous version. 
+	 * May generate an undefined key warning. This gets around the problem. 
+	 * It will be removed with the next update.
+	 */
+	if( $selected_font === 'source-serif-pro' ) {
+		$selected_font = 'source_serif_pro';
+	}
 	if( $selected_font !== 'system_ui' ) {
 		$fonts = xsimply_fonts();
 		$font  = sanitize_text_field( str_replace(" ", "+", $fonts[$selected_font] ) );
@@ -232,8 +254,15 @@ function xsimply_inline_css() {
 	
 	// add typography
 	$selected_font = get_theme_mod( 'xsimply_typography_choices', 'titillium_web' );
+	/**
+	 * For users who have set up Source Serif Pro with the previous version. 
+	 * May generate an undefined key warning. This gets around the problem. 
+	 * It will be removed with the next update.
+	 */
+	if( $selected_font === 'source-serif-pro' ) {
+		$selected_font = 'source_serif_pro';
+	}
 	$fonts = xsimply_fonts();
-	
 	if( $selected_font !== 'system_ui' ) {
 		$font = sanitize_text_field( $fonts[$selected_font] );
 		$fs = '';

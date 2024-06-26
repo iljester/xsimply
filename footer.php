@@ -17,15 +17,7 @@
 		<div class="search-box"> 
 			<?php get_search_form(); ?>
 		</div>
-		<div class="site-info">
-			<?php printf( 
-				esc_html__('Powered by %s', 'xsimply' ), '<a href="https://wordpress.org/">Wordpress</a>' );
-			?>
-			<span class="sep"> /&nbsp;/ </span>
-			<?php printf( 
-				esc_html__('Theme %s by %s', 'xsimply' ), 'XSimply', '<a href="' . XSIMPLY_AUTHOR_SITE . '">Il Jester</a>' );
-			?>
-		</div><!-- .site-info -->
+		<?php xsimply_display_credits(); ?>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

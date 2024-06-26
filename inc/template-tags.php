@@ -162,7 +162,7 @@ if( ! function_exists('xsimply_get_my_site_cp') ) :
 	 */
 	function xsimply_get_my_site_cp() {
 
-		$site_cp = get_theme_mod('xsimply_my_site_cp');
+		$site_cp = get_theme_mod('xsimply_my_site_cp', '{copy}{year} {blogname}');
 
 		if( empty( $site_cp ) ) {
 			return;
@@ -183,17 +183,57 @@ if( ! function_exists('xsimply_get_my_site_cp') ) :
 
 endif;
 
-/**
- * Display classes for header
- * 
- * Detects if custom logo is set and a class is added
- * Detects if header text is displayed and a class is added
- */
-function xsimply_display_classes_for_header() {
+if( ! function_exists('xsimply_display_classes_for_header') ) :
+	/**
+	 * Display classes for header
+	 * 
+	 * Detects if custom logo is set and a class is added
+	 * Detects if header text is displayed and a class is added
+	 */
+	function xsimply_display_classes_for_header() {
 
-	$has_custom_logo = has_custom_logo() ? ' has-custom-logo' : '';
-	$has_header_title = display_header_text() ? ' has-header-title' : '';
+		$has_custom_logo = has_custom_logo() ? ' has-custom-logo' : '';
+		$has_header_title = display_header_text() ? ' has-header-title' : '';
 
-	echo esc_attr( $has_custom_logo . $has_header_title );
+		echo esc_attr( $has_custom_logo . $has_header_title );
 
-}
+	}
+endif;
+
+if ( ! function_exists('xsimply_display_credits') ) :
+	/**
+	 * Display credits for ClassicPress and Theme
+	 */
+	function xsimply_display_credits() { 
+
+		$cms_credits = (bool) get_theme_mod('xsimply_hide_cms_credits', 0);
+		$theme_credits = (bool) get_theme_mod('xsimply_hide_theme_credits', 0);
+		
+		if( $cms_credits === false || $theme_credits === false ) :
+		?>
+
+		<div class="site-info">
+				<?php 
+				// cms credits
+				if( $cms_credits === false ) :
+				printf( 
+					esc_html__('Powered by %s', 'xsimply' ), '<a href="' . XSIMPLY_CMS_LINK . '">WordPress</a>' );
+				endif;
+
+				// separator
+				if( $cms_credits === false && $theme_credits === false ) : ?>
+					<span class="sep"> /&nbsp;/ </span>
+				<?php endif;
+				
+				// theme credits
+				if( $theme_credits === false ) :
+				printf( 
+					esc_html__('Theme %s by Il Jester', 'xsimply' ), '<a href="' . XSIMPLY_THEME_LINK . '">XSimply</a>' );
+				endif;
+				?>
+		</div><!-- .site-info -->
+		<?php
+
+		endif;
+	}
+endif;

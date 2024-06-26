@@ -3,7 +3,7 @@
 Contributors: iljester
 Tags: custom-background, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, custom-header, 
 editor-style, flexible-header, post-formats, sticky-post, rtl-language-support
-Stable tag: 1.7.1
+Stable tag: 1.8.0
 Requires at least: 4.8
 Tested up to: 4.9
 Requires PHP: 5.6
@@ -45,6 +45,16 @@ Use a background suitable for that color scheme. You can also adjust the transpa
 From version 1.1, XSimply allows you to customize the font. Fonts available: see inc/customizer.php
 
 == Changelog ==
+
+= 1.8.0 - 26/06/2024
+* Added theme options to hide footer credits for WordPress and Theme
+* Added new fonts: Playfair Display, Ubuntu
+* Updated translate for italian language
+* Added function_exists condition for xsimply_display_classes_for_header()
+* Added constant for cms credits XSIMPLY_CMS_LINK
+* Added constant for theme credits XSIMPLY_THEME_LINK
+* Removed constant XSIMPLY_AUTHOR_SITE
+* Fix minor bugs
 
 = 1.7.1 - 25/06/2024
 * Add README.md
