@@ -11,7 +11,7 @@
  * Set constant web author link for footer credits
  * Do not move or edit
  */
-define( 'XSIMPLY_THEME_LINK', 'https://github.com/iljester/xsimply-cp' );
+define( 'XSIMPLY_THEME_LINK', 'https://github.com/iljester/xsimply' );
 
 /**
  * Set constant for cms credits
@@ -23,7 +23,7 @@ define('XSIMPLY_CMS_LINK', 'https://wordpress.org/');
  * Define version
  * For any use
  */
-define('XSIMPLY_VER', '1.8.0');
+define('XSIMPLY_VER', '1.8.1');
 
 /**
  * xsimply setup
