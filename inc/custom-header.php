@@ -48,7 +48,7 @@ if ( ! function_exists( 'xsimply_header_style' ) ) :
 		} else {
 			// If the user has set a custom color for the text use that.
 			$header_text_color_with_hash = sanitize_hex_color( '#' . $header_text_color );
-			echo ".site-title a, .site-description { color: {$header_text_color_with_hash}; }";
+			echo ".site-title a, .site-description { color: {$header_text_color_with_hash}; }"; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		}
 		echo PHP_EOL;
 		echo '</style>';

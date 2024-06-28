@@ -23,7 +23,7 @@ define('XSIMPLY_CMS_LINK', 'https://wordpress.org/');
  * Define version
  * For any use
  */
-define('XSIMPLY_VER', '1.8.1');
+define('XSIMPLY_VER', '1.8.2');
 
 /**
  * xsimply setup
@@ -392,9 +392,9 @@ function xsimply_inline_css() {
 	}
 	
 	if( !empty( $xsimply_css_rules ) ) {
-		$xsimply_css_rules_string = implode( PHP_EOL, $xsimply_css_rules );
+		$xsimply_css_rules_string = esc_html( implode( PHP_EOL, $xsimply_css_rules ) );
 		echo '<style type="text/css" id="xsimply-inline-css">';
-		echo "{$xsimply_css_rules_string}";
+		echo "{$xsimply_css_rules_string}"; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		echo '</style>';
 	}
 }

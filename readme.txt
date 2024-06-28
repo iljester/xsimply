@@ -3,7 +3,7 @@
 Contributors: iljester
 Tags: custom-background, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, custom-header, 
 editor-style, flexible-header, post-formats, sticky-post, rtl-language-support
-Stable tag: 1.8.1
+Stable tag: 1.8.2
 Requires at least: 4.8
 Tested up to: 4.9
 Requires PHP: 5.6
@@ -45,6 +45,9 @@ Use a background suitable for that color scheme. You can also adjust the transpa
 From version 1.1, XSimply allows you to customize the font. Fonts available: see inc/customizer.php
 
 == Changelog ==
+
+= 1.8.2 - 27/06/2024
+* Fix security issues
 
 = 1.8.1 - 27/06/2024
 * Fix link theme

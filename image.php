@@ -39,7 +39,7 @@ get_header();
 								echo wp_get_attachment_image( get_the_ID(), $image_size );
 							?>
 
-							<figcaption class="wp-caption-text"><?php echo get_the_excerpt(); ?></figcaption>
+							<figcaption class="wp-caption-text"><?php echo esc_html( get_the_excerpt() ); ?></figcaption>
 
 						</figure><!-- .entry-attachment -->
 
@@ -65,7 +65,7 @@ get_header();
 							if ( $metadata ) {
 								printf(
 									'<span class="full-size-link"><span class="screen-reader-text">%1$s</span><a href="%2$s">%3$s &times; %4$s</a></span>',
-									_x( 'Full size', 'Used before full size attachment link.', 'xsimply' ),
+									esc_html_x( 'Full size', 'Used before full size attachment link.', 'xsimply' ),
 									esc_url( wp_get_attachment_url() ),
 									absint( $metadata['width'] ),
 									absint( $metadata['height'] )
