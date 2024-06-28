@@ -28,19 +28,19 @@ if ( post_password_required() ) {
 		?>
 		<h2 class="comments-title">
 			<?php
-			$xsimply_comment_count = get_comments_number();
-			if ( '1' === $xsimply_comment_count ) {
+			$xsimply_comment_count = absint( get_comments_number() );
+			if ( 1 === $xsimply_comment_count ) {
 				printf(
 					/* translators: 1: title. */
 					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'xsimply' ),
-					'<span>' . get_the_title() . '</span>'
+					'<span>' . esc_html( get_the_title() ) . '</span>'
 				);
 			} else {
-				printf( // WPCS: XSS OK.
+				printf( // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					/* translators: 1: comment count number, 2: title. */
 					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $xsimply_comment_count, 'comments title', 'xsimply' ) ),
 					number_format_i18n( $xsimply_comment_count ),
-					'<span>' . get_the_title() . '</span>'
+					'<span>' . esc_html( get_the_title() ) . '</span>'
 				);
 			}
 			?>
